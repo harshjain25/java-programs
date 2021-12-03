@@ -20,7 +20,7 @@ class Cylinder{
 }
 public class Guess {
     public static void main(String[] args){
-        Cylinder mycylinder = new Cylinder();
+        Cylinder1 mycylinder = new Cylinder1();
         mycylinder.setHeight(12);
         int h = mycylinder.getHeight();
         System.out.println(h);
