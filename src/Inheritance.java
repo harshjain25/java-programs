@@ -2,7 +2,7 @@ class Base{
     int x;
 
     public void setX(int x){
-        System.out.println("setting value of x");
+        System.out.println("setting value of x"); 
         this.x=x;
     }
     public int getX(){
