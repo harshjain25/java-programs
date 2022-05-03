@@ -19,7 +19,7 @@ public class AdjMatGraph {
         for(int v=0;v<V;v++){
             sb.append(v+": ");
             for(int w:adjMatrix[v]){
-                sb.append(w+" ");
+                sb.append(w+": ");
             }
             sb.append("\n");
         }
