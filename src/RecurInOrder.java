@@ -17,12 +17,12 @@ public class RecurInOrder {
         TreeNode second = new TreeNode(2);
         TreeNode third = new TreeNode(3);
         TreeNode fourth = new TreeNode(4);
-//        TreeNode fifth=new TreeNode(5);
+//      TreeNode fifth=new TreeNode(5);
         root = first;
         first.left = second;
         first.right = third;
         second.left = fourth;
-//        second.right=fifth;
+//      second.right=fifth;
     }
     public void inorder(TreeNode root){
         if(root==null){

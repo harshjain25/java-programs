@@ -93,14 +93,16 @@ public class DLL2 {
             tail=newnode;
         }
         else{
-            ListNode temp=head;
+            ListNode current=head,temp=null;
             for(int i=0;i<index-1;i++){
-                temp=temp.next;
+                current=current.next;
             }
-            temp.next=newnode;
-            //newnode.next=temp.next;
-            newnode.previous=temp.next;
-
+            current.next=temp;
+            temp.previous=current;
+            current.next=newnode;
+            newnode.previous=current;
+            newnode.next=temp;
+            temp.previous=newnode;
         }
     }
 
