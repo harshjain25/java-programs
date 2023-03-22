@@ -14,7 +14,7 @@ public class BFS_Graph {
                 adj[v]=new LinkedList<>();
             }
         }
-        public void addEdge(int u, int v){
+         public void addEdge(int u, int v){
             adj[u].add(v);
             adj[v].add(u);
             E++;
@@ -26,7 +26,7 @@ public class BFS_Graph {
                 sb.append(v+": ");
                 for(int w: adj[v]){
                     sb.append(w+" ");
-                }
+                } 
                 sb.append("\n");
             }
             return sb.toString();

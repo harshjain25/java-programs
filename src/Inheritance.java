@@ -30,3 +30,11 @@ public class Inheritance {
          System.out.println(b.getX());
     }
 }
+class harsh{
+    int a;
+    static int count;
+    {
+        count++;
+        //int b= count++;
+    }
+}
